@@ -1,0 +1,352 @@
+proxies:
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 1000 Mbps
+    name: "\U0001F1F7\U0001F1FA俄罗斯1 | ⬇️ 1.0MB/s"
+    port: 62003
+    server: 176.32.35.226
+    servername: apple.com
+    skip-cert-verify: true
+    type: hysteria
+    up: 1000 Mbps
+    auth-str: dongtaiwang.com
+  - name: "\U0001F1F8\U0001F1EC新加坡1 | ⬇️ 1.0MB/s"
+    password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+    port: 20049
+    server: 19.9n3pqn1406.xyz
+    skip-cert-verify: true
+    sni: 19.9n3pqn1406.xyz
+    type: trojan
+  - name: "\U0001F1ED\U0001F1F0香港1 | ⬇️ 1.0MB/s"
+    password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+    port: 20107
+    server: 7.2gyh5ybsic.xyz
+    skip-cert-verify: true
+    sni: 7.2gyh5ybsic.xyz
+    type: trojan
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5日本1 | ⬇️ 1.1MB/s"
+    network: tcp
+    port: 11839
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: gysz0000.dynu.net
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.nvidia.com
+  - name: "\U0001F1F8\U0001F1EC新加坡2 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 80
+    server: 170.114.45.6
+    skip-cert-verify: false
+    tls: false
+    type: vless
+    udp: true
+    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+    ws-opts:
+      headers:
+        Host: free.pranithsandaruwan.shop
+      path: /
+    servername: free.pranithsandaruwan.shop
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1EE\U0001F1F3印度1 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 25216
+    server: cm.awslcn.info
+    skip-cert-verify: false
+    tls: false
+    type: vmess
+    uuid: b784f479-32c2-4fa9-a6f9-0e8d3f8cb4ae
+    ws-opts:
+      headers:
+        Host: cm.awslcn.info
+      path: /
+  - name: "\U0001F1EB\U0001F1EE芬兰1 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.5.206
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_3) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/41.0.2272.89 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EB\U0001F1F7法国1 | ⬇️ 1.1MB/s"
+    network: tcp
+    port: 40072
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: agaungzhou01.bumbleshrimp.com
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.yahoo.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1FA\U0001F1F8美国1 | ⬇️ 1.1MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: 838e602b
+    port: 66
+    server: cc.w1997.eu.org
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - name: "\U0001F1FA\U0001F1F8美国2 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.228
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.106 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2"
+    xudp: true
+  - alpn:
+      - h3
+    auth_str: dongtaiwang.com
+    down: 1000 Mbps
+    name: "\U0001F1F7\U0001F1FA俄罗斯2 | ⬇️ 1.0MB/s"
+    port: 10469
+    server: 46.17.41.174
+    skip-cert-verify: true
+    sni: apple.com
+    type: hysteria
+    udp: true
+    up: 100 Mbps
+    auth-str: dongtaiwang.com
+  - down: ''
+    fingerprint: ''
+    name: "\U0001F1EB\U0001F1F7法国2 | ⬇️ 1.0MB/s"
+    obfs: ''
+    obfs-password: ''
+    password: dongtaiwang.com
+    port: 59967
+    server: 195.154.33.70
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - cipher: aes-256-cfb
+    name: "\U0001F1F8\U0001F1EC新加坡3 | ⬇️ 1.1MB/s"
+    password: amazonskr05
+    port: 443
+    server: 54.179.52.175
+    type: ss
+  - name: "\U0001F1F9\U0001F1FC台湾1 | ⬇️ 1.1MB/s"
+    password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+    port: 20029
+    server: 9.qzhm8l42g1.xyz
+    skip-cert-verify: true
+    sni: 9.qzhm8l42g1.xyz
+    type: trojan
+  - cipher: aes-256-cfb
+    name: "\U0001F300其他1-未识别 | ⬇️ 1.1MB/s"
+    password: amazonskr05
+    port: 443
+    server: 43.201.54.89
+    type: ss
+  - client-fingerprint: chrome
+    name: "\U0001F1ED\U0001F1F0香港2 | ⬇️ 1.1MB/s"
+    password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+    port: 20011
+    server: 1.elk3b3nwfy.xyz
+    skip-cert-verify: true
+    sni: 1.elk3b3nwfy.xyz
+    type: trojan
+    udp: true
+  - name: "\U0001F1EF\U0001F1F5日本2 | ⬇️ 1.0MB/s"
+    password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+    port: 20007
+    server: 7.9n3pqn1406.xyz
+    skip-cert-verify: true
+    sni: 7.9n3pqn1406.xyz
+    type: trojan
+  - name: "\U0001F1F8\U0001F1EC新加坡4 | ⬇️ 1.1MB/s"
+    network: ws
+    port: 80
+    server: 170.114.46.6
+    type: vless
+    udp: true
+    uuid: d9074e14-c4e4-4e58-8fff-3727e83af868
+    ws-opts:
+      headers:
+        Host: free.pranithsandaruwan.shop
+        User-Agent: >-
+          Mozilla/5.0 (Linux; Android 8.0.0; WAS-LX3 Build/HUAWEIWAS-LX3)
+          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile
+          Safari/537.36
+      path: /
+    xudp: true
+    servername: free.pranithsandaruwan.shop
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1ED\U0001F1F0香港3 | ⬇️ 1.1MB/s"
+    network: tcp
+    port: 23657
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: gy01.hunheiydd.xyz
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.nvidia.com
+  - client-fingerprint: chrome
+    name: "\U0001F300其他2-SE | ⬇️ 1.0MB/s"
+    network: ws
+    port: 8443
+    server: www.speedtest.net
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24a4aa9b-b341-4717-9d4a-00d74c2b84e0
+    ws-opts:
+      headers:
+        Host: 6PaI52dYm3.DmNeWnOd110.CoM
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/55.0.2883.87 Safari/537.36
+      path: /
+    xudp: true
+    servername: 6PaI52dYm3.DmNeWnOd110.CoM
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F9\U0001F1FC台湾2 | ⬇️ 1.1MB/s"
+    network: tcp
+    port: 34313
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: 120.238.53.237
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: gateway.icloud.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1F9\U0001F1FC台湾3 | ⬇️ 1.1MB/s"
+    network: tcp
+    port: 12477
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: gy01.hunheiydd.xyz
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.nvidia.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1FA\U0001F1F8美国3 | ⬇️ 1.1MB/s"
+    network: tcp
+    port: 46372
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: zhee01.dynu.net
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.amazon.com
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EC\U0001F1E7英国1 | ⬇️ 1.1MB/s"
+    network: tcp
+    port: 35311
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: shenzhou02.mysynology.net
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: www.yahoo.com
+  - name: "\U0001F1EF\U0001F1F5日本3 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 80
+    server: 45.131.4.194
+    type: vless
+    udp: true
+    uuid: c5293efa-28f8-4a0f-8f34-541078970cee
+    ws-opts:
+      headers:
+        Host: gozargah.validbv7996.ir
+        User-Agent: >-
+          Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+          Gecko) Chrome/47.0.2526.106 Safari/537.36
+      path: "/Telegram\U0001F1E8\U0001F1F3@WangCai2/?ed=2560"
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: "\U0001F1ED\U0001F1F0香港4 | ⬇️ 1.0MB/s"
+    network: ws
+    port: 2052
+    server: ms.rtxconfigz.xyz
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    uuid: 84ab761a-9f51-42bf-83ab-8a6b4885ca27
+    ws-opts:
+      path: /
+      headers:
+        Host: ms.rtxconfigz.xyz
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1E6\U0001F1FA澳大利亚1 | ⬇️ 1.0MB/s"
+    network: tcp
+    port: 42426
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: bsuqian01.dynu.net
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: gateway.icloud.com
+  - name: "\U0001F1F9\U0001F1FC台湾4 | ⬇️ 1.1MB/s"
+    password: 13c3cf97-5a4a-434f-880a-aecbd70c15bc
+    port: 20030
+    server: 10.qzhm8l42g1.xyz
+    skip-cert-verify: true
+    sni: 10.qzhm8l42g1.xyz
+    type: trojan
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: "\U0001F1EF\U0001F1F5日本4 | ⬇️ 1.0MB/s"
+    network: tcp
+    port: 35659
+    reality-opts:
+      public-key: qhTzYYIgBzDLNYR79oxftqdo1kzL-1_hGJKfqrOliCY
+    server: shenzhou02.mysynology.net
+    tls: true
+    type: vless
+    uuid: 459b4a80-bd61-4ecd-a26b-e9c1809d9e45
+    servername: gateway.icloud.com
+  - name: "\U0001F1EF\U0001F1F5日本5 | ⬇️ 1.0MB/s"
+    password: exaxgqkKkd0TAMrCxeonWg==
+    port: 443
+    server: jp104-cdn-route.couldflare-cdn.com
+    skip-cert-verify: false
+    sni: jp104-cdn-route.couldflare-cdn.com
+    tls: true
+    type: http
+    username: mrwdfNTD8M79LCukCieldrqZWqs=
+  - auth: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+    name: "\U0001F1E8\U0001F1E6加拿大1 | ⬇️ 1.0MB/s"
+    password: cfe032e4-1bc3-454f-9d09-301b0aea08ff
+    port: 37407
+    server: 155.248.219.197
+    skip-cert-verify: true
+    sni: www.bing.
